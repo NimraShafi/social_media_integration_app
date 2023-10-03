@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/sparks_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="202dp"
+            android:layout_height="186dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/social_media1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="Welcome to"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:text="The Sparks Foundation"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/sparks_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/facebook_btn"
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_button"
+            android:drawableLeft="@drawable/fb_logo"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingHorizontal="5dp"
+            android:paddingStart="6dp"
+            android:paddingLeft="6dp"
+            android:text="Login with Facebook"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+       <Button
+           android:id="@+id/google_btn"
+           android:layout_width="247dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal|center_vertical"
+           android:layout_marginBottom="20dp"
+           android:gravity="center_horizontal|center_vertical"
+           android:paddingHorizontal="5dp"
+           android:paddingStart="6dp"
+           android:paddingLeft="6dp"
+           android:text="Login with Facebook"
+           android:textAllCaps="false"
+           android:textColor="#808080"
+           android:textSize="15sp"
+           android:backgroundTint="@color/white"
+           android:drawableLeft="@drawable/search"
+           android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/link_texts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="By clicking on login, you are accepting our Privacy Policy \nand Terms &amp; Conditions."
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/copyright"
+            android:layout_gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="2021 Pranay Gupta for The Sparks Foundation"
+            android:textAllCaps="false"
+            android:textSize="16dp"/>
+    </LinearLayout>
+
+  </RelativeLayout>

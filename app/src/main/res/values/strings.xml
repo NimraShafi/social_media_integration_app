@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">social media integration app</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="facebook_app_id">1677787809300114</string>
+    <string name="fb_login_protocol_scheme">fb1677787809300114</string>
+    <string name="facebook_client_token">56789</string>
+</resources>
